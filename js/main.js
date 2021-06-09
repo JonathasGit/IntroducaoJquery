@@ -18,6 +18,7 @@ function consultaCep () { /* função para puxar o cep*/
             $("#localidade").html(response.localidade);
             $("#bairro").html(response.bairro);
             $("#titulo_cep").html("CEP " + response.cep); // Vai puxar o cep e mostrar na tela 
+            $(".cep").show(); // Para ver após a pesquisa
 
             //document.getElementById("logradouro").innerHTML = response.logradouro;
             //document.getElementById("bairro").innerHTML = response.bairro;
@@ -31,3 +32,8 @@ function consultaCep () { /* função para puxar o cep*/
   
 
 }
+
+// Para fechar após a pesquisa e depois com o show cep volta a pesquisa
+$(function(){
+    $(".cep").hide();
+})
