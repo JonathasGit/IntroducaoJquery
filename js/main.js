@@ -13,6 +13,11 @@ function consultaCep () { /* função para puxar o cep*/
         type: "GET",
         success: function(response){
             console.log(response);
+            $("#logradouro").html(response.logradouro); /*Mesma coisa do que document.getElementById porem com menos código.*/
+            //document.getElementById("logradouro").innerHTML = response.logradouro;
+            document.getElementById("bairro").innerHTML = response.bairro;
+            document.getElementById("localidade").innerHTML = response.localidade;
+            document.getElementById("uf").innerHTML = response.uf;
            //alert(response.logradouro);
         } 
 
