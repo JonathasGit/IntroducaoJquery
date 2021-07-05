@@ -15,6 +15,6 @@ São 5 Aulas : <br>
 
 
 
-Curso concluido: <a href="https://certificates.digitalinnovation.one/76AAFA1F">Certificado</a>
+Curso concluido: <a href="https://certificates.digitalinnovation.one/76AAFA1F">Introdução à biblioteca jQuery</a>
 
 Link do site Online : 
