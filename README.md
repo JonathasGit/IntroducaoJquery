@@ -1,6 +1,8 @@
 # IntroducaoJquery
 Introdução à Biblioteca jQuery , curso oferecido pela <a href="https://digitalinnovation.one/sign-in">Digital Innovation One</a> pelo professor <a href="https://github.com/rafegal">Rafael Galleani</a><br> <hr>
 
+Para Consultar CEPs.
+
 São 5 Aulas : <br>
 
 1 - Utilizando Jquery e Ajax - Parte 1   
@@ -16,5 +18,3 @@ São 5 Aulas : <br>
 
 
 Curso concluido: <a href="https://certificates.digitalinnovation.one/76AAFA1F">Introdução à biblioteca jQuery</a>
-
-Link do site Online : 
